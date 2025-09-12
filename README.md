@@ -1,6 +1,6 @@
 # DSDE: Dynamic Speculative Decoding Engine
 
-This repository integrates our research and development on **speculative decoding for LLM serving**, unifying two key contributions:
+This repository integrates our research and development on **speculative decoding for LLM serving**
 
 1. **Dynamic Speculative Length (DSL) Adaptation**  
    - Sequence- and iteration-level draft length control (DSDE core).  
