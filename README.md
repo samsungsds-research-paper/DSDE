@@ -7,7 +7,8 @@ This repository integrates our research and development on **speculative decodin
    - Training-free framework guided by stability signals (KLD variance, acceptance rate analysis).  
    - Related publication and upstream discussion:  
      - [DSDE: Dynamic Speculative Decoding with KLD Stability for Real-World Serving (arXiv:2509.01083)](https://arxiv.org/abs/2509.01083)  
-     - vLLM GitHub Issue: [#17984 – Dynamic speculative length adaptation](https://github.com/vllm-project/vllm/issues/17984)  
+     - vLLM GitHub Issue: [#17984 – Dynamic speculative length adaptation](https://github.com/vllm-project/vllm/issues/17984)
+     - Per-sequence decoding: [Spec-Decode] Add DynamicProposer for per-sequence dynamic speculative decoding #26504 (https://github.com/vllm-project/vllm/pull/26504)
 
 2. **Tree-Attention Speculative Decoding (RA Contribution)**  
    - This enables efficient speculative decoding by avoiding batch expansion, providing memory-efficient attention computation for tree-structured token generation patterns commonly used in speculative sampling.  
