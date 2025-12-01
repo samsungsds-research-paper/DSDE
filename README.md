@@ -1,6 +1,6 @@
 # DSDE: Dynamic Speculative Decoding Engine
 
-**Based on vLLM v0.9.4**
+**Based on vLLM v0.8.4**
 
 This repository integrates our research and development on **speculative decoding for LLM serving**
 
